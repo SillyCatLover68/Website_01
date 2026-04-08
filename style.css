@@ -1,0 +1,39 @@
+h1 {
+  text-decoration: underline;
+}
+
+img {
+  width: 450px;
+}
+
+body {
+  text-align: center;
+  font-family: "arial";
+  background: azure;
+  color: purple;
+
+  background-image: url("https://loveincorporated.blob.core.windows.net/contentimages/gallery/03211459-0607-4d07-8a6c-9966e3820a7d-Mount-Kirkjufell-Iceland.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.back_board {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* https://www.w3schools.com/css/css_inline-block.asp */
+  display: inline-block;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.nav_bar {
+  background-color: lightgray;
+  list-style-type: none;
+  padding: 10px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
